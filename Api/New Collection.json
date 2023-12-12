@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "f7f444d8-0b60-431a-a4c4-b21e679fd4ed",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "28704469-f7f444d8-0b60-431a-a4c4-b21e679fd4ed"
+	},
+	"item": [
+		{
+			"name": "Api_Sldier",
+			"id": "40bbbb0b-806c-4d1e-a723-c2e0191d5677",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api/index.php?key=slider",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "slider"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
